@@ -1,0 +1,86 @@
+body{
+    font-family: sans-serif;
+    background-image: url(creative.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+.container{
+    border-radius: 10px;
+}
+.login{
+    height: 100vh;
+}
+.login label{
+    color: #6e7171;
+    text-align: start;
+}
+input{
+    border: 0px;
+    outline:  0px;
+    padding:  10px;
+}
+.log::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    height: 1px;
+    background-color: #b1b4b4;
+}
+.log::after{
+    content:"";
+    position: absolute;
+    width: 0%;
+    bottom: 0px;
+    left: 0px;
+    height: 1px;
+    background-color: #515151;
+    transition: 0.3s;
+}
+.log:hover::after{
+    width: 100%;
+}
+i{
+    transition: 0.3s;
+}
+.log:hover i{   
+    color: #fc00ff;
+}
+.loginbt{
+    background: -webkit-linear-gradient(right,#00dbde,#fc00ff);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: 700;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.loginbt:hover{
+transform: scale(1.2);
+}
+.login button{
+    padding: 12px;
+    border: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    color: #8e8f90;
+}
+span{
+    color:black;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.error{
+    margin-top:2px;
+    color:#ff0000a1;
+}
